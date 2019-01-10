@@ -1,3 +1,7 @@
 body {
   font-family: Palatino;
+  background-color: pink;
+
+#reading-list {
+  color: blue;
 }

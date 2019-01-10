@@ -12,8 +12,8 @@ const handleFormSubmit = function(event) {
   // console.log(event.target.category.value)
   const readingList = document.querySelector('#reading-list');
   const newItem = document.createElement('p')
-  newItem.textContent = `ADDED: ${event.target.title.value} AUTHOR: ${event.target.author.value}
-                        TYPE: ${event.target.category.value}`;
+  newItem.textContent = `Title: ${event.target.title.value} Author: ${event.target.author.value}
+                        Type: ${event.target.category.value}`;
   const form = document.querySelector('#new-item-form')
     form.reset();
   readingList.appendChild(newItem);
